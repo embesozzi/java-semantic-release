@@ -22,7 +22,7 @@ jobs:
     - run: npm install -g semantic-release @semantic-release/changelog @semantic-release/commit-analyzer @semantic-release/exec semantic-release/git semantic-release/release-notes-generator
     - name: Release
       env:
-        GITHUB_TOKEN: ${{ secrets.semantic-release }}
+        GITHUB_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
       run: npx semantic-release
 #    - uses: actions/upload-artifact@v2
 #      with:
