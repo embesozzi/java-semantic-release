@@ -22,10 +22,10 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }} 
     - run: npm install -g semantic-release @semantic-release/changelog @semantic-release/commit-analyzer @semantic-release/exec semantic-release/git semantic-release/release-notes-generator
-#    - name: Release
-
-    - run: chmod +x ./prepare-release.sh
-    - run: npx semantic-release
+    - name: Release
+      env:
+        GITHUB_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
+      run: chmod +x ./prepare-release.sh && npx semantic-release
 #    - uses: actions/upload-artifact@v2
 #      with:
 #        name: Package
