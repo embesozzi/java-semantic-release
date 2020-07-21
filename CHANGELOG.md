@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+# [1.6.0](https://github.com/embesozzi/java-semantic-release/compare/v1.5.0...v1.6.0) (2020-07-21)
+
+
+### Features
+
+* **release:** Update change asset destination path ([a920e2f](https://github.com/embesozzi/java-semantic-release/commit/a920e2fa2d431ba946b9552f39a260422d2224bc))
+
 # [1.5.0](https://github.com/embesozzi/java-semantic-release/compare/v1.4.0...v1.5.0) (2020-07-21)
 
 
