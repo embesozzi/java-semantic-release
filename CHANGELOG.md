@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [1.7.1](https://github.com/embesozzi/java-semantic-release/compare/v1.7.0...v1.7.1) (2020-07-21)
+
+
+### Bug Fixes
+
+* **release:** Adjust release configuration ([929a6eb](https://github.com/embesozzi/java-semantic-release/commit/929a6eb3b5f32e639a01201f55702fc4b6a8fdb6))
+
 # [1.7.0](https://github.com/embesozzi/java-semantic-release/compare/v1.6.0...v1.7.0) (2020-07-21)
 
 
