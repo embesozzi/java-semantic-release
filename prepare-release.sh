@@ -2,5 +2,5 @@
 
 echo "version = $1"
 # Added version
-cat "version" >> version.md
+echo "version" >> version.md
 printenv
