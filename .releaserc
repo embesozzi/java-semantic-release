@@ -32,7 +32,7 @@
             {
                 "assets": [
                     {
-                        "path": "target/**"
+                        "path": "release/**"
                     }
                 ]
             }
