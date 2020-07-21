@@ -1,4 +1,4 @@
-# java-semantic-release
+# java-semantic-release (maven)
 
 This example uses ***github workflow*** with ***semantic-release plugins*** to automatize the ***maven library*** release in github:
 
