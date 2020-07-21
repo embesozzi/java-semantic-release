@@ -2,5 +2,8 @@
 
 echo "version = $1"
 # Added version
-echo "version" >> version.md
+# mvn versions:set -DnewVersion=$1
+JAR_VERSION=`echo $1 | cut -d'v' -f2`
+mvn versions:set -DnewVersion=$JAR_VERSION
+
 printenv

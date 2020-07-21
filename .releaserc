@@ -23,7 +23,7 @@
             {
                 "assets": [
                     "CHANGELOG.md",
-                    "version.md"
+                    "pom.xml"
                 ]
             }
         ],
