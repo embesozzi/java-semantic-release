@@ -8,5 +8,6 @@ echo "jar = $JAR_VERSION"
 mvn versions:set -DnewVersion=$JAR_VERSION
 
 mvn clean package
+cp target/*.jar release 
 
 printenv
