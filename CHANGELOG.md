@@ -1,5 +1,18 @@
 # Semantic Versioning Changelog
 
+# [1.7.0](https://github.com/embesozzi/java-semantic-release/compare/v1.6.0...v1.7.0) (2020-07-21)
+
+
+### Bug Fixes
+
+* **release:** Adjust workflow and release configuration ([44232a0](https://github.com/embesozzi/java-semantic-release/commit/44232a0b088904dce56f01969c975d9da7e90771))
+
+
+### Features
+
+* **release:** Update change asset destination path ([068add5](https://github.com/embesozzi/java-semantic-release/commit/068add5e9fc19dc3aff434fc658da12ab99c4905))
+* **release:** Update change asset path ([72ddd83](https://github.com/embesozzi/java-semantic-release/commit/72ddd83ab6f0ad67bb45971ec96bec5220ae2384))
+
 # [1.6.0](https://github.com/embesozzi/java-semantic-release/compare/v1.5.0...v1.6.0) (2020-07-21)
 
 
