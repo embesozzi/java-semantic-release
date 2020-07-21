@@ -1,6 +1,6 @@
 # java-semantic-release
 
-This example uses ***github workflow*** with ***semantic-release plugins*** to automatize the release for ***maven library***:
+This example uses ***github workflow*** with ***semantic-release plugins*** to automatize the ***maven library*** release in github:
 
 1. Plugin ```semantic-release/commit-analyzer```: Parses commit messages and determines if new release should made base on 
 [AngularJS](https://github.com/angular/angular.js/blob/master/DEVELOPERS) message format.
