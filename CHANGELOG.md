@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+# [1.2.0](https://github.com/embesozzi/java-semantic-release/compare/v1.1.0...v1.2.0) (2020-07-21)
+
+
+### Features
+
+* **release:** Change release ([f93e764](https://github.com/embesozzi/java-semantic-release/commit/f93e764b0936b36ec125d13616c9251f148e8aff))
+
 # [1.1.0](https://github.com/embesozzi/java-semantic-release/compare/v1.0.0...v1.1.0) (2020-07-19)
 
 
