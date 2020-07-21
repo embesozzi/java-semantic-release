@@ -7,7 +7,9 @@ JAR_VERSION=`echo $1 | cut -d'v' -f2`
 echo "jar = $JAR_VERSION"
 mvn versions:set -DnewVersion=$JAR_VERSION
 
-mvn clean package 
+echo "Packaging...."
+mvn package 
+echo "Copying jar to release folder...."
 mkdir release && cp target/*.jar release
 
 printenv
