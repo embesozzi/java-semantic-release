@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+# [1.8.0](https://github.com/embesozzi/java-semantic-release/compare/v1.7.1...v1.8.0) (2020-08-16)
+
+
+### Features
+
+* **hello:** Added 2 methods ([f0e36aa](https://github.com/embesozzi/java-semantic-release/commit/f0e36aaae421aa05767246935b776e6f2142cef4))
+
 ## [1.7.1](https://github.com/embesozzi/java-semantic-release/compare/v1.7.0...v1.7.1) (2020-07-21)
 
 
