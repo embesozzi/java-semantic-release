@@ -12,3 +12,4 @@ This example uses ***github workflow*** with ***semantic-release plugins*** to a
     4. Copy library to release folder
 4. Plugin ```semantic-release/git```: Commit new pom.xml and changelog with comment ```[skip ci]``` in order to be skipped by gh workflow
 5. Plugin ```semantic-release/git```: Upload assets to GitHub releases and comment on issues
+
